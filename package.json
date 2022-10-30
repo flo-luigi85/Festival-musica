@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flo-luigi85/Festival-musica.git"
+    "url": "git+https://github.com/flo-luigi85/festival.git"
   },
   "keywords": [
     "SASS"
@@ -18,9 +18,9 @@
   "author": "Flores",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/flo-luigi85/Festival-musica/issues"
+    "url": "https://github.com/flo-luigi85/festival/issues"
   },
-  "homepage": "https://github.com/flo-luigi85/Festival-musica#readme",
+  "homepage": "https://github.com/flo-luigi85/festival#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",

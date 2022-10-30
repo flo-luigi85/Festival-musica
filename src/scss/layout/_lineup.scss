@@ -2,7 +2,7 @@
 @use 'base/mixins' as m;
 
 .lineup {
-    background-color: v.$rosa;
+    background-color: v.$naranja-verde;
     padding: 5rem 0;
 
     h3, p {
@@ -16,8 +16,10 @@
 }
 
 .escenarios-contenedor {
+    
     @include m.tablet {
         @include m.grid(2 ,5rem);
+        
     }
 
     p {
@@ -27,6 +29,7 @@
 }
 
 .escenario {
+    border-radius: .5rem;
     padding-top: 2rem;
     .nombre-escenario {
         &:after {
@@ -70,4 +73,7 @@
     li:nth-child(odd){
         background-color: darken(v.$verde, 10%);
     }
+}
+.bg-celeste2{
+    background-color: #3399ff;
 }
